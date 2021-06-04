@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/shape_album_item_bg"
+    android:layout_height="75dp">
+
+    <com.example.myapplication.views.RoundRectImageView
+        android:id="@+id/album_cover"
+        android:layout_width="68dp"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_height="65dp"
+        android:layout_marginLeft="5dp"
+        />
+    <LinearLayout
+        android:layout_toRightOf="@id/album_cover"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+         <TextView
+             android:id="@+id/album_title_tv"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="分为氛围分为我反反复复烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦"
+             android:lines="1"
+             android:ellipsize="end"
+             android:textSize="18dp"
+             android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/album_description_tv"
+            android:layout_width="262dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="3dp"
+            android:textColor="#ff848484"
+            android:text="分为氛围分为我为范围为分为氛围分为违法二哥热热热肥肉"
+            android:textSize="12sp"
+            android:lines="1"
+            android:ellipsize="end"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/album_play_count"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="234.4万"
+                android:textSize="12sp"
+
+                />
+            <TextView
+                android:id="@+id/album_content_size"
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="23集"
+                android:textSize="12sp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

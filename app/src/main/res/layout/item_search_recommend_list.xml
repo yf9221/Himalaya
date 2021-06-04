@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/selector_search_recommend_bg"
+    android:layout_height="40dp">
+    <TextView
+        android:id="@+id/search_commend_item"
+        android:text="大飒飒的"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/sub_text_title"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/sub_text_title99"
+        android:layout_alignParentBottom="true"
+        android:layout_height="1dp"/>
+</RelativeLayout>

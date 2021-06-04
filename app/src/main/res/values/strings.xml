@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">喜马拉雅demo</string>
+    <string-array name="indicator_title">
+        <item>推荐</item>
+        <item>订阅</item>
+        <item>历史</item>
+    </string-array>
+    <string name="play_list_mode_list">列表播放</string>
+    <string name="play_list_mode_list_loop">列表循环播放</string>
+    <string name="play_list_mode_random">随机播放</string>
+    <string name="play_list_mode_single_loop">单曲循环播放</string>
+    <string name="order_txt">顺序</string>
+    <string name="re_order_txt">逆序</string>
+     <string name="detail_pause_txt">继续播放</string>
+    <string name="cancel_sup_tips_text">取消订阅</string>
+    <string name="sup_tips_text">+订阅</string>
+    <string name="sub_empty_tip">没有订阅内容，赶紧去订阅吧</string>
+    <string name="his_empty_tip">没有历史内容，感觉去听歌吧</string>
+</resources>
